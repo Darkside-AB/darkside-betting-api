@@ -7,6 +7,7 @@ export default async function handler(
   res: VercelResponse
 ) {
   try {
+    console.log("stefan is fantastic");
     const data = await fetchSvenskaSpel(
       "https://api.spela.svenskaspel.se/draw/1/europatipset/draws/result"
     );
